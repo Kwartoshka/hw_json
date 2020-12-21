@@ -38,7 +38,6 @@ def get_sorted_top(file):
     top = []
     for word in tuples_list[:10]:
         top.append(word[0])
-    print(tuples_list)
     return top
 
 
